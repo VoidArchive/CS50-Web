@@ -1,0 +1,103 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+
+/* NAV BAR */
+.nav{
+    text-align: right;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav a{
+    color: #222325;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+
+/* SEARCH BAR*/
+.search{
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+}
+
+.search:hover, .search:focus{
+    box-shadow: 0 0 1px 1px #dbdbdb;
+    outline: none;
+}
+
+/* BUTTON */
+.button{
+    background-color: #f7f7f7;
+    border-style: none;
+    margin: 15px 10px;
+    padding: 8px 16px;
+    border-radius: 2px;
+}
+
+.button:hover, .button:focus{
+    box-shadow: 0 0 1px 1px #c7c7c7;
+    outline: none;
+}
+
+
+/* Center Div */
+.main{
+    margin-top: 200px;
+    text-align: center;
+}
+
+/* Advanced Search */
+
+#ad_logo{
+    text-align: left;
+    width: 75px;
+    margin: 10px 10px;
+}
+
+h3{
+    margin: 30px 0px 40px 47px;
+    color: red;
+    font-size: 20px;
+}
+
+table{
+    margin: 15px 45px;
+}
+
+.adv_search{
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    display: block;
+    margin: 7px;
+    padding: 7px;
+    width: 450px;
+}
+.adv_search:hover, .adv_search:focus{
+    box-shadow: 0 0 1px 1px #dbdbdb;
+    outline: none;
+}
+.adv_button{
+    background-color: #4d90fe;
+    color: white;
+    margin: 15px 10px 0 550px;
+    padding: 8px 16px;
+    border-radius: 2px;
+}
+
+.adv_button:hover, .adv_button:focus{
+    box-shadow: 0 0 1px 1px #c4c4c4;
+    outline: none;
+}
