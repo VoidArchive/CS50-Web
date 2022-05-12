@@ -1,0 +1,27 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+
+    {% if possible_list %}
+        <h3>Did you meant to search?</h3>
+
+    <ul>
+        {% for entry in possible_list %}
+            <li><a href="{% url 'entry' title=entry %}">{{ entry }}</a></li>
+        {% endfor %}
+    </ul>
+
+    {% else %}
+
+        <h3>Could not find. Try creating a new one</h3>
+
+        
+    {% endif %}
+
+
+
+{% endblock %}
